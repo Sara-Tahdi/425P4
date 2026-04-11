@@ -1,0 +1,675 @@
+{C:/Users/14382/Downloads/ECSE 425/P4/425P4/processor_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/processor_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity processor_tb
+-- Compiling architecture behavior of processor_tb
+
+} {} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_decode.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_decode.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_decode
+-- Compiling architecture rtl of instruction_decode
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_decode.vhd(60): Ambiguous type in infix expression; reg_file_t or ieee.std_logic_1164.STD_LOGIC_VECTOR.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_decode.vhd(60): (vcom-1583) Illegal type converson from 'unknown' to 'ieee.NUMERIC_STD.SIGNED' (operand type is not known).
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_decode.vhd(237): VHDL Compiler exiting
+
+} {9.0 11.0} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/wb_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/wb_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity wb_tb
+-- Compiling architecture behavior of wb_tb
+
+} {} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_tb
+-- Compiling architecture behavioral of alu_tb
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(81): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(81): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(82): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(82): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(82): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(82): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(83): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(83): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(83): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(84): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(84): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(84): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(84): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(84): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(104): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(104): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(105): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(105): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(105): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(105): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(106): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(106): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(106): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(107): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(107): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(107): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(107): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(107): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(127): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(127): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(128): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(128): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(128): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(128): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(129): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(129): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(129): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(130): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(130): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(130): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(130): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(130): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(152): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(152): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(153): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(153): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(153): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(153): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(154): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(154): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(154): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(155): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(155): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(155): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(155): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(155): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(177): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(177): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(178): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(178): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(178): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(178): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(179): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(179): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(179): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(180): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(202): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(202): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(203): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(203): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(203): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(203): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(204): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(204): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(204): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(205): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(205): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(205): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(205): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(205): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(225): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(225): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(226): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(226): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(226): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(226): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(227): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(227): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(227): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(228): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(228): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(228): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(228): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(228): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(250): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(250): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(251): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(251): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(251): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(251): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(252): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(252): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(252): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(253): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(253): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(253): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(253): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(253): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(275): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(275): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(276): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(276): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(276): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(276): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(277): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(277): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(277): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(278): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(278): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(278): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(278): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(278): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(300): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(300): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(301): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(301): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(301): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(301): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(302): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(302): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(302): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(303): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(303): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(303): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(303): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(303): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(325): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(325): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(326): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(326): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(326): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(326): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(327): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(327): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(327): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(328): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(328): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(328): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(328): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(328): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(350): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(350): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(351): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(351): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(351): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(351): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(352): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(352): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(352): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(353): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(353): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(353): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(353): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(353): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(375): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(375): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(376): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(376): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(376): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(376): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(377): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(377): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(377): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(378): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(378): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(378): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(378): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(378): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/alu_tb.vhd(401): VHDL Compiler exiting
+
+} {9.0 191.0} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity execute_tb
+-- Compiling architecture behaviour of execute_tb
+** Warning: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(78): (vcom-1236) Shared variables must be of a protected type.
+** Warning: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(79): (vcom-1236) Shared variables must be of a protected type.
+** Warning: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(80): (vcom-1236) Shared variables must be of a protected type.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(132): Cannot drive signal "A" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(133): Cannot drive signal "B" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(134): Cannot drive signal "Imm" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(135): Cannot drive signal "IR" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(136): Cannot drive signal "NPC" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(137): Cannot drive signal "ALUSrc" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(138): Cannot drive signal "ALUFunc" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(139): Cannot drive signal "Branch" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(140): Cannot drive signal "BranchType" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(141): Cannot drive signal "Jump" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(142): Cannot drive signal "JumpReg" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(143): Cannot drive signal "MemRead" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(144): Cannot drive signal "MemWrite" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(145): Cannot drive signal "RegWrite" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(146): Cannot drive signal "MemToReg" from procedure "set_defaults".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(299): String literal has a character with value 0x86 not in the enumeration type std.STANDARD.CHARACTER.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(307): String literal has a character with value 0x86 not in the enumeration type std.STANDARD.CHARACTER.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(349): String literal has a character with value 0x86 not in the enumeration type std.STANDARD.CHARACTER.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(363): (vcom-1395) Type conversion (to UNSIGNED) cannot have string literal operand.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(363): (vcom-1395) Type conversion (to UNSIGNED) cannot have string literal operand.
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/execute_tb.vhd(647): VHDL Compiler exiting
+
+} {12.0 32.0} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture rtl of ALU
+
+} {} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity id_tb
+-- Compiling architecture behavior of id_tb
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(133): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(133): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(134): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(143): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(143): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(144): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(164): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(164): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(165): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(174): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(174): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(175): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(240): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(240): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(241): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(249): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(249): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(250): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(267): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(267): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(268): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(276): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(276): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(277): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(337): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(337): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(338): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(346): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(346): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(347): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(364): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(364): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(365): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(373): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(373): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(374): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(433): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(433): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(434): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(442): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(442): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(443): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(460): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(460): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(461): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(469): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(469): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(470): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(530): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(530): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(531): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(539): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(539): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(540): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(557): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(557): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(558): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(566): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(566): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(567): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(626): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(626): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(627): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(635): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(635): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(636): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(653): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(653): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(654): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(662): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(662): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(663): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(722): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(722): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(723): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(731): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(731): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(732): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(749): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(749): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(750): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(758): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(758): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(759): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(818): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(818): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(819): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(827): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(827): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(828): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(845): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(845): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(846): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(854): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(854): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(855): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(914): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(914): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(915): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(923): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(923): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(924): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(941): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(941): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(942): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(950): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(950): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(951): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1010): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1010): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1011): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1019): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1019): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1020): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1028): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1028): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1029): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1046): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1046): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1047): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1055): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1055): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1056): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1117): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1117): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1118): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1126): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1126): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1127): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1135): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1135): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1136): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1153): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1153): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1154): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1171): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1171): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1172): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1223): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1223): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1224): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1232): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1232): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1233): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1241): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1241): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1242): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1259): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1259): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1260): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1277): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1277): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1278): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1329): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1329): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1330): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1338): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1338): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1339): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1347): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1347): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1348): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1365): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1365): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1366): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1383): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1383): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1384): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1434): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1434): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1435): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1443): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1443): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1444): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1452): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1452): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1453): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1470): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1470): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1471): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1488): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1488): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1489): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1539): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1539): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1540): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1548): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1548): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1549): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1557): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1557): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1558): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1575): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1575): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1576): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1593): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1593): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1594): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1644): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1644): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1645): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1662): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1662): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1663): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1671): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1671): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1672): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1731): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1731): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1732): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1740): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1740): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1741): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1758): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1758): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1759): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1767): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1767): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1768): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1836): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1836): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1837): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1854): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1854): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1855): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1863): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1863): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1864): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1923): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1923): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1924): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1932): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1932): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1933): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1950): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1950): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1951): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1959): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1959): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(1960): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2019): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2019): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2020): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2028): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2028): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2029): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2046): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2046): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2047): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2055): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2055): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2056): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2115): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2115): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2116): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2124): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2124): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2125): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2142): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2142): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2143): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2151): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2151): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2152): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2209): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2209): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2209): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2225): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2225): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2225): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2233): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2233): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2233): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/id_tb.vhd(2293): VHDL Compiler exiting
+
+} {9.0 282.0} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_fetch.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_fetch.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_fetch
+-- Compiling architecture rtl of instruction_fetch
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_fetch.vhd(74): Cannot read output "NPC".
+	VHDL 2008 allows reading outputs.
+	This facility is enabled by compiling with -2008.
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/instruction_fetch.vhd(84): VHDL Compiler exiting
+
+} {9.0 10.0} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/register_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/register_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture rtl of register_file
+
+} {} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/writeback.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/writeback.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity writeback
+-- Compiling architecture rtl of writeback
+** Warning: C:/Users/14382/Downloads/ECSE 425/P4/425P4/writeback.vhd(38): (vcom-1083) Implicit array operator "/=" always returns TRUE (left length 5 is not equal to right length 1).
+
+} {} {}} {C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity if_tb
+-- Compiling architecture behavior of if_tb
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(111): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(111): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(111): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(115): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(115): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(115): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(133): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(133): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(134): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(134): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(134): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(135): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(139): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(139): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(140): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(140): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(140): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(141): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(165): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(169): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(180): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(184): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(195): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(199): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(215): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(219): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(235): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(239): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(254): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(254): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(254): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(258): (vcom-1136) Unknown identifier "to_hstring".
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(258): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(258): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+** Note: C:/Users/14382/Downloads/ECSE 425/P4/425P4/if_tb.vhd(286): VHDL Compiler exiting
+
+} {9.0 93.0} {}}
